@@ -1,0 +1,9 @@
+keycloak:
+  auth-server-url: http://docker.host.internal:30100
+  realm:
+  resource:
+  public-client: true
+  principal-attribute: preferred_username
+spring:
+  main:
+    allow-circular-references: true

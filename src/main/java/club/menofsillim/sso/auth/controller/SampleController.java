@@ -59,4 +59,8 @@ public class SampleController {
         return "success!!";
     }
 
+    @GetMapping("/manager/default")
+    public String afterLogin() {
+        return "after login page";
+    }
 }
